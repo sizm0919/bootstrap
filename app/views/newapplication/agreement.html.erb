@@ -1,0 +1,102 @@
+<div class="form-body">
+<div class="container mt-5 p-lg-5 bg-light">
+  <div class="row p-2 bg-secondary text-white">
+      書面の交付と内容の理解
+  </div>
+  
+    <div class="row my-3 h6">
+      約款等への同意・確認
+    </div>
+
+    <div class="d-lg-flex border-top border-bottom">
+      <div class="col-lg-9 px-2 my-2">
+        <div class="row">
+          <strong>・勧誘受諾意思確認</strong>
+        </div>
+        <div class="row">
+          大阪取引所における商品関連市場デリバティブ取引及び東京商品取引所における商品市場デリバティブ（商品先物取引）の仕組み・内容を了知のうえ、 下記に掲げる諸規定、弊社の規定等に従い、取引を行うことを承諾されますか？
+        </div>
+      </div>
+
+      <%= render 'agreement'%>
+
+    </div><!--d-lg-flex-->
+
+    <div class="d-lg-flex border-top border-bottom">
+      <div class="col-lg-9 px-2 my-2">
+        <div class="row">
+          <strong>・個人情報の取扱についての同意</strong>
+        </div>
+        <div class="row">
+          下記に示す「個人情報の取扱について」を確認・ご理解の上、ご同意されますか？
+        </div>
+      </div>
+
+      <%= render 'agreement'%>
+
+    </div><!--d-lg-flex-->
+
+    <div class="d-lg-flex border-top border-bottom">
+      <div class="col-lg-9 px-2 my-2">
+        <div class="row">
+          <strong>・事前交付書面のオンライン提供についての承諾</strong>
+        </div>
+        <div class="row">
+          口座開設のお申込みにあたり、「書面の電磁的方法による交付等に係る規程」 を熟読し、当該規定が定める内容及び「大阪取引所約諾書」、 「東京商品取引所約諾書」、「差換預託に関する同意書」、「証拠金等の一体管理に係る特約」が電磁的方法により交付されることにご承諾されますか？
+        </div>
+      </div>
+      <%= render 'agreement'%>
+    </div><!--d-lg-flex-->
+
+    <div class="d-lg-flex border-top border-bottom">
+      <div class="col-lg-9 px-2 my-2">
+        <div class="row">
+          <strong>・電磁的方法による書面交付の承諾</strong>
+        </div>
+        <div class="row">
+        取引後に発行する以下の書面は、取引画面内にて交付させていただくことに関してご承諾されますか？<br>
+        「いいえ」を選択された場合、口座開設のお申込をお受けできませんのであらかじめご了承ください。
+          <div class="ml-2">
+          <ul>
+            <li>取引報告書</li>
+            <li>取引残高報告書</li>
+            <li>保証金受領書</li>
+            <li>証拠金等不足額請求書</li>
+          </ul>
+          </div>
+        </div>
+
+      </div>
+      <%= render 'agreement'%>
+    </div><!--d-lg-flex-->
+
+    <div class="d-lg-flex border-top border-bottom">
+      <div class="col-lg-9 px-2 my-2">
+        <div class="row">
+          <strong>・交付書面のご理解とご同意</strong>
+        </div>
+        <div class="row">
+        当社の定める以下の事前交付書面を、全て内容を確認またはダウンロードして熟読された上、ご理解・ご同意されますか？
+          <div class="ml-2">
+          <ul>
+            <li>注意喚起文書</li>
+            <li>証拠金一覧/手数料一覧</li>
+            <li>ロスカット制度について</li>
+            <li>両建について</li>
+            <li>委託者証拠金について</li>
+            <li>契約締結前交付書面</li>
+            <li>口座開設の申込みにあたり</li>
+            <li>取引要綱</li>
+            <li>特定の電子取引に関する運用規定</li>
+            <li>特定の電子取引に関する契約約款</li>
+            <li>主務省作成リーフレット（商品先物取引に関する苦情・相談について）</li>
+          </ul>
+          </div>
+        </div>
+
+      </div>
+      <%= render 'agreement'%>
+    </div><!--d-lg-flex-->
+
+</div><!-- /container -->
+</div><!-- /form-body -->
